@@ -51,6 +51,6 @@ print(str(hello_tuple[0]))
 #Notice the use of the str function above to explicitly convert the integer
 #value inside the tuple to a string before printing it.
 
-print(hello_dict["first_name"] + "" + hello_dict["last_name"] + "has" + hello_duct["eye_color"] + " eyes.")
+print(hello_dict["first_name"] + " " + hello_dict["last_name"] + " has " + hello_dict["eye_color"] + " eyes.")
 
-print("{0} {1} has {2} eyes.".format(hello_duct["first_name"], hello_duct["last_name"], hello_duct["eye_color"]))
+print("{0} {1} has {2} eyes.".format(hello_dict["first_name"], hello_dict["last_name"], hello_dict["eye_color"]))
